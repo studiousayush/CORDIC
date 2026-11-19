@@ -1,0 +1,124 @@
+$date
+	Wed Sep 23 08:59:29 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_fft4_radix2 $end
+$var wire 18 ! X3_re [17:0] $end
+$var wire 18 " X3_im [17:0] $end
+$var wire 18 # X2_re [17:0] $end
+$var wire 18 $ X2_im [17:0] $end
+$var wire 18 % X1_re [17:0] $end
+$var wire 18 & X1_im [17:0] $end
+$var wire 18 ' X0_re [17:0] $end
+$var wire 18 ( X0_im [17:0] $end
+$var reg 16 ) x0_im [15:0] $end
+$var reg 16 * x0_re [15:0] $end
+$var reg 16 + x1_im [15:0] $end
+$var reg 16 , x1_re [15:0] $end
+$var reg 16 - x2_im [15:0] $end
+$var reg 16 . x2_re [15:0] $end
+$var reg 16 / x3_im [15:0] $end
+$var reg 16 0 x3_re [15:0] $end
+$scope module dut $end
+$var wire 16 1 x0_im [15:0] $end
+$var wire 16 2 x0_re [15:0] $end
+$var wire 16 3 x1_im [15:0] $end
+$var wire 16 4 x1_re [15:0] $end
+$var wire 16 5 x2_im [15:0] $end
+$var wire 16 6 x2_re [15:0] $end
+$var wire 16 7 x3_im [15:0] $end
+$var wire 16 8 x3_re [15:0] $end
+$var wire 17 9 o1_re [16:0] $end
+$var wire 17 : o1_im [16:0] $end
+$var wire 17 ; o0_re [16:0] $end
+$var wire 17 < o0_im [16:0] $end
+$var wire 17 = e1_re [16:0] $end
+$var wire 17 > e1_im [16:0] $end
+$var wire 17 ? e0_re [16:0] $end
+$var wire 17 @ e0_im [16:0] $end
+$var wire 18 A X3_re [17:0] $end
+$var wire 18 B X3_im [17:0] $end
+$var wire 18 C X2_re [17:0] $end
+$var wire 18 D X2_im [17:0] $end
+$var wire 18 E X1_re [17:0] $end
+$var wire 18 F X1_im [17:0] $end
+$var wire 18 G X0_re [17:0] $end
+$var wire 18 H X0_im [17:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 H
+b1 G
+b0 F
+b1 E
+b0 D
+b1 C
+b0 B
+b1 A
+b0 @
+b1 ?
+b0 >
+b1 =
+b0 <
+b0 ;
+b0 :
+b0 9
+b0 8
+b0 7
+b0 6
+b0 5
+b0 4
+b0 3
+b1 2
+b0 1
+b0 0
+b0 /
+b0 .
+b0 -
+b0 ,
+b0 +
+b1 *
+b0 )
+b0 (
+b1 '
+b0 &
+b1 %
+b0 $
+b1 #
+b0 "
+b1 !
+$end
+#10000
+b100 0
+b100 8
+b100 ?
+b111111111111111110 %
+b111111111111111110 E
+b111111111111111110 !
+b111111111111111110 A
+b11111111111111110 =
+b11 .
+b11 6
+b1010 '
+b1010 G
+b111111111111111110 #
+b111111111111111110 C
+b110 ;
+b10 &
+b10 F
+b111111111111111110 "
+b111111111111111110 B
+b11111111111111110 9
+b10 ,
+b10 4
+#20000
